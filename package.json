@@ -1,0 +1,26 @@
+{
+  "name": "cloud-storage-setup",
+  "version": "1.0.0",
+  "description": "A cloud storage setup project for handling file operations.",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.2",
+    "ts-node": "^9.1.1",
+    "jest": "^26.6.0",
+    "@types/jest": "^26.0.0",
+    "@types/express": "^4.17.8",
+    "@types/multer": "^1.4.7"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
